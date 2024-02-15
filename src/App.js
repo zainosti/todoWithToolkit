@@ -44,7 +44,7 @@ function App() {
         Decrease
       </Button>
       {loading ? (
-        <div className=''>
+        <div>
           <Spin />
         </div>
       ) : (
